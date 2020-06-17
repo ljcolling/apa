@@ -8,7 +8,7 @@ fmt_stat <- function(statistic, leading_zero = TRUE, equal_sign = TRUE,
   }
   else
   {
-    statistic <- sprintf("%.2f", statistic)
+    statistic <- sprintf("%.3f", statistic)
 
     if (equal_sign)
     {
